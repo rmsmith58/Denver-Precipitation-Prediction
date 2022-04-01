@@ -1,0 +1,21 @@
+Notes:
+-Data cleansing/preprocessing
+	-Null values in PRCP column
+		-Approx. 21.14% of rows null PRCP
+		-Filtered out
+			-Data size before: 141484 rows
+			-Data size after: 107309 rows
+			
+	-Split date var into day, month, year
+	
+	-Multiple entries for each day/station
+		-Sum prcp for each day/station
+
+-Data visualization/stats	
+	-Visualized PRCP vs date
+_TODO_		-2010 low prcp
+_TODO_		-post-2014 scattered
+	-Visualized avg PRCP per month
+
+-Dimensionality reduction
+	-Removed flag columns and snow-related
